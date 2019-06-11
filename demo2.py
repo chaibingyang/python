@@ -1,0 +1,8 @@
+#print("{0}\n{1}\n\n{2}({3})\n\n{4}\n{5}\n{0}" .format("*"*50,input("请输入公司名称："),input("请输入名字："),input("请输入公司职位："),input("请输入电话号码："),input("请输入邮箱：")))
+company = input("请输入公司名称：")
+name = input("请输入名字：")
+job = input("请输入公司职位：")
+phone = input("请输入电话号码：")
+mailbox = input("请输入邮箱：")
+str = "{0}\n{1}\n\n{2}({3})\n\n{4}\n{5}\n{0}" .format("*"*50 , company , name , job , phone , mailbox)
+print(str)
